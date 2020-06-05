@@ -1,0 +1,47 @@
+#name: "lvlv"
+#Name: "lili"
+
+#data: {"name":"lili", "pwd":"1234}
+#
+#data1:
+#  name: "lili"
+#  pwd: "1234"
+
+#data2:
+#  - "lili"
+#  - "nana"
+#
+#data3: ["123", "456"]
+#
+#data4:
+#  - name: "lili"
+#  - pwd: "123"
+
+
+#name: lili
+
+#bool1: true
+#bool2: false
+#bool3: True
+#bool4: False
+
+#int1: 122
+#float1: 12.0002
+
+#data8:
+#data9: null
+#data10: Null
+
+#date1: 2020-11-11 12:12:12
+#date2: 2020-11-11
+#date3: 12:12:12
+#data4: 2020-06-02 02:02:02
+#date5: 2020-06-12
+
+info: &data
+  name: "lili"
+  phone: "15555555555"
+
+addr:
+  <<: *data
+  detail: "幸福路17号"
